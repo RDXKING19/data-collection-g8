@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+  --bg-cosmic: radial-gradient(ellipse at 30% 20%, #2d1b6b 0%, #1a0f4e 30%, #0d0a2e 65%, #080520 100%);
+  --bg-cosmic-overlay: linear-gradient(180deg, #581ceb0f 0%, transparent 50%, #08052066 100%);
+  --color-primary: #8b5cf6;
+  --color-gold: #facc15;
+  --color-gold-hover: #fef08a;
+  --color-text-light: #ffffff;
+  --color-text-muted: #cbd5e1;
+  --color-text-subtle: #94a3b8;
+  
+  --glass-bg: #2e1e5a85;
+  --glass-bg-strong: #1e143cb8;
+  --glass-border: #ffffff24;
+  --glass-shadow: 0 16px 48px #0000008c;
+  --glass-blur: blur(22px);
+
+  --color-wonder: #c084fc;
+  --color-story: #fb923c;
+  --color-simulate: #38bdf8;
+  --color-play: #4ade80;
+  --color-reflect: #818cf8;
+
+  /* 10 World accents */
+  --world-0: #f472b6;
+  --world-1: #fb923c;
+  --world-2: #fbbf24;
+  --world-3: #4ade80;
+  --world-4: #38bdf8;
+  --world-5: #818cf8;
+  --world-6: #c084fc;
+  --world-7: #22d3ee;
+  --world-8: #facc15;
+  --world-9: #f43f5e;
+
+  /* Header height variable measured dynamically by useHeaderHeight */
+  --header-h: 56px;
+
+  /* Data visual tokens */
+  --visual-accent: #38bdf8;
+  --visual-gold: #facc15;
+  --visual-success: #4ade80;
+  --visual-danger: #f43f5e;
+  --visual-card: #180d38bb;
+
+  --space-xs: clamp(4px, 0.8vh, 8px);
+  --space-sm: clamp(8px, 1.5vh, 16px);
+  --space-md: clamp(12px, 2vh, 24px);
+  --space-lg: clamp(16px, 3vh, 32px);
+  --space-xl: clamp(20px, 4.5vh, 48px);
+
+  --fs-main-heading: clamp(30px, 5vh, 56px);
+  --fs-section-heading: clamp(24px, 4vh, 44px);
+  --fs-learning-objective: clamp(20px, 3vh, 34px);
+  --fs-question-text: clamp(19px, 2.5vw, 30px);
+  --fs-important-numbers: clamp(28px, 4.5vh, 52px);
+  --fs-body-text: clamp(15px, 2.2vh, 20px);
+  --fs-button-text: clamp(16px, 2.3vh, 24px);
+  --fs-caption: clamp(13px, 1.8vh, 18px);
+
+  font-family: Nunito, Inter, system-ui, -apple-system, sans-serif;
+}
